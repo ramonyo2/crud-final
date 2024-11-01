@@ -1,0 +1,67 @@
+/* UserList.css */
+
+/* Contenedor de la lista de usuarios */
+.user-list-container {
+    margin: 20px auto;
+    max-width: 600px; /* Ancho máximo del contenedor */
+    padding: 20px; /* Espaciado interno */
+    border: 1px solid #ddd; /* Borde */
+    border-radius: 8px; /* Bordes redondeados */
+    background-color: #f9f9f9; /* Color de fondo */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra */
+}
+
+/* Título de la lista de usuarios */
+.user-list-title {
+    text-align: center; /* Centra el texto */
+    font-size: 1.5rem; /* Tamaño de fuente */
+    margin-bottom: 20px; /* Espaciado inferior */
+}
+
+/* Estilo de la lista */
+.user-list {
+    list-style-type: none; /* Sin viñetas */
+    padding: 0; /* Sin espaciado interno */
+}
+
+/* Estilo de cada ítem de la lista */
+.user-item {
+    display: flex; /* Usar flex para alinear elementos */
+    justify-content: space-between; /* Espacio entre texto y botones */
+    align-items: center; /* Alinear verticalmente */
+    padding: 10px; /* Espaciado interno */
+    border-bottom: 1px solid #eee; /* Borde inferior */
+}
+
+/* Información del usuario */
+.user-info {
+    flex-grow: 1; /* Ocupa el espacio disponible */
+}
+
+/* Estilo de los botones de acción */
+.user-actions {
+    display: flex; /* Usar flex para alinear botones */
+    gap: 10px; /* Espacio entre botones */
+}
+
+.user-actions button {
+    padding: 6px 12px; /* Espaciado interno */
+    background-color: #007bff; /* Color azul */
+    color: white; /* Color del texto */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cursor de mano */
+    transition: background-color 0.3s; /* Transición de fondo */
+}
+
+/* Cambia el color de los botones al pasar el mouse */
+.user-actions button:hover {
+    background-color: #0056b3; /* Color azul más oscuro al pasar el mouse */
+}
+
+/* Estilo para mostrar el total de usuarios */
+.total-users {
+    text-align: center; /* Centra el texto */
+    font-size: 1rem; /* Tamaño de fuente */
+    margin-top: 20px; /* Espaciado superior */
+}

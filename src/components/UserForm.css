@@ -1,0 +1,63 @@
+/* UserForm.css */
+
+/* Contenedor del formulario */
+.user-form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centra horizontalmente el contenido */
+    margin: 20px auto;
+}
+
+/* Título */
+.header-title {
+    text-align: center; /* Centra el texto */
+    font-size: 2rem; /* Tamaño de fuente grande */
+    margin: 20px 0; /* Espaciado superior e inferior */
+    color: #007bff; /* Color del texto */
+}
+
+/* Estilos del formulario */
+.user-form {
+    display: flex;
+    flex-direction: column;
+    width: 400px; /* Ancho del formulario */
+    padding: 20px; /* Espaciado interno */
+    border: 1px solid #ddd; /* Borde */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra */
+    background-color: #f9f9f9; /* Color de fondo */
+    margin-left: 450px;
+}
+
+/* Estilos de los campos de entrada */
+.user-form input {
+    margin-bottom: 15px; /* Espacio entre campos */
+    padding: 12px; /* Espaciado interno */
+    border: 1px solid #ccc; /* Borde */
+    border-radius: 5px; /* Bordes redondeados */
+    font-size: 16px; /* Tamaño de fuente */
+    transition: border-color 0.3s; /* Transición de borde */
+}
+
+/* Cambia el borde al enfocar el campo */
+.user-form input:focus {
+    border-color: #007bff; /* Color azul al enfocar */
+    outline: none; /* Sin contorno */
+}
+
+/* Estilo del botón */
+.user-form button {
+    padding: 12px; /* Espaciado interno */
+    background-color: #007bff; /* Color azul */
+    color: white; /* Color del texto */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    font-size: 16px; /* Tamaño de fuente */
+    cursor: pointer; /* Cursor de mano */
+    transition: background-color 0.3s; /* Transición de fondo */
+}
+
+/* Cambia el color del botón al pasar el mouse */
+.user-form button:hover {
+    background-color: #0056b3; /* Color azul más oscuro al pasar el mouse */
+}
